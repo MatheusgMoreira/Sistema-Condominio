@@ -1,0 +1,22 @@
+@import 'classes';
+
+.apart-morador {
+    grid-column:  2 / 4;
+    margin: 0 auto;
+}
+
+.apart-morador li {
+    color: $main-color;
+    font-family: monospace;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    padding: .5em;
+}
+
+.apart-morador a {
+    color: $secondary-color;
+}
+
+.apart-morador a:hover {
+    color: $main-color;
+}

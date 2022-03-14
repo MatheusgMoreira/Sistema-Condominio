@@ -1,0 +1,66 @@
+@import 'classes';
+
+.andares {
+    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    margin-bottom: 5em;
+}
+
+.andar {
+    grid-column:  2 / 4;
+}
+
+.andar a, .apartamentos a {
+    width: 300px;
+    display: block;
+    background: $contrast-color;
+    color: $main-color;
+    text-decoration: none;
+    padding: .5em;
+    border: 1px solid $main-color;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Hubballi', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.andar a:hover, .apartamentos a:hover {
+    background: $main-color;
+    color: $contrast-color;
+}
+
+.andar-1, .andar-2, .andar-3, .andar-4{
+    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    margin-bottom: 5em;
+}
+
+.apartamentos {
+    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+.apartamentos h3 {
+    color: $secondary-color;
+}
+
+.apartamento-1, .apartamento-3 {
+    grid-column: 2;
+}
+
+.apartamento-2, .apartamento-4 {
+    grid-column: 4;
+}
+
+.apartamento-1, .apartamento-3, .apartamento-2, .apartamento-4 {
+    margin-bottom: 1em;
+    padding: .5em;
+    text-align: center;
+}

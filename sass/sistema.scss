@@ -1,0 +1,34 @@
+@import 'classes';
+
+.home-predios {
+    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    margin-bottom: 5em;
+}
+
+.predios {
+    grid-column: 2 / 4;
+}
+
+.predios a{
+    width: 300px;
+    display: block;
+    background: $contrast-color;
+    color: $main-color;
+    text-decoration: none;
+    padding: .5em;
+    border: 1px solid $main-color;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Hubballi', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.predios a:hover {
+    background: $main-color;
+    color: $contrast-color;
+}
